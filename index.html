@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dojonary</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="contenedor">
+        <nav class="navegacion">
+            <h1 class="nav-title">Dojonary</h1>
+            <input type="text" name="buscador" class="buscador" placeholder="Buscar">
+            <button type="button" class="btn-1" onclick="cambiarTexto(this)">Login</button>
+        </nav>
+
+        <div class="cuerpo">
+            <div class="card-left">
+                <div class="card-1">
+                    <div class="descripcion">
+                        <h1 class="encabezado-2">ninja</h1>
+                        <p> <em>noun</em><br> Plural: <em>ninjas</em></p>
+                        <button type="button" class="btn-2" onclick="meGusta(this)"> 13 Likes</button>
+                    </div>
+                    <div class="significado">
+                        <p> Guerrero <a href="#">japonés</a> experto en <a href="#">artes marciales</a>.</p>
+                    </div>
+                </div>
+
+                <div class="card-1">
+                    <div class="descripcion">
+                        <h1 class="encabezado-2">ninja</h1>
+                        <p><em>noun</em><br> Plural: <em>ninjas</em></p>
+                        <button type="button" class="btn-2" onclick="meGusta(this)"> 48 Likes</button>
+                    </div>
+                    <div class="significado">
+                        <p> Propio o característico de los  <a href="#">ninja</a>.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-right">
+                <h4 class="titulo-añadir"> Dojonary es <br>definido por <strong>TI</strong></h4>
+                <button onclick="eliminarBoton(this)" type="button" class="btn-3"> Añadir tu definicion </button>
+            </div>
+        </div>
+    </div>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>

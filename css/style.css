@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #242524;
+}
+
+.contenedor{
+    padding: 0 20%;
+}
+.navegacion{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #5cc7ae;
+    padding: 30px 25px;
+    margin-bottom: 35px;
+}
+
+.nav-title{
+    font-size:50px;
+}
+
+input{
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-size: 20px;
+    border: 1px solid aliceblue;
+    width: 335px;
+    padding: 6px 10px;
+}
+.btn-1{
+    color:rgb(43, 45, 46);
+    font-size: 20px;
+    background-color: #62BEC1;
+    border: 2px solid #1b1b1b;
+    box-shadow: 1px 1px 0px 2px #1b1b1be5;
+    padding: 6px 30px;
+    cursor: pointer; 
+}
+
+.cuerpo{
+    display: flex;
+    flex-direction: row;
+    gap: 70px;
+}
+.card-left{
+    flex: 3;
+}
+.card-1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 15px 15px 15px 25px;
+    gap:50px;
+    border: 3px solid rgb(146, 146, 146);
+    border-radius: 5px;
+    margin-bottom: 25px;
+}
+.encabezado-2{
+    font-size: 50px;
+    margin-bottom: 15px;
+    font-weight: 500;
+}
+
+p{
+    font-size: 30px;
+}
+
+.btn-2{
+    font-size: 15px;
+    background-color: #ecee74;
+    border: 2px solid #1b1b1b;
+    box-shadow: 1px 1px 0px 2px #1b1b1be5;
+    padding: 6px 15px;
+    cursor: pointer; 
+    margin: 25px 0;
+}
+.card-right{
+    border: 3px solid rgb(146, 146, 146);
+    border-radius: 5px;
+    padding: 20px;
+    height: 180px;
+}
+
+.titulo-añadir{
+    font-size: 40px;
+    font-weight: 400;
+    margin-bottom: 35px;
+}
+.btn-3{
+    font-size: 20px;
+    background-color: #55e455;
+    border: 2px solid #1b1b1b;
+    box-shadow: 1px 1px 0px 2px #1b1b1be5;
+    padding: 6px 10px;
+    margin-bottom: 10px;
+    cursor: pointer; 
+}
+
